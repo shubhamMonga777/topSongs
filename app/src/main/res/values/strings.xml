@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Practical Test</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="price">%s%s</string>
+    <string name="play_song">Play Song</string>
+    <string name="stopSong">Stop Song</string>
+    <string name="no_internet">No Internet available</string>
+
+</resources>

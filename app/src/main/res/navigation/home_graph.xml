@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_graph.xml"
+    app:startDestination="@id/topSongsFragment">
+
+    <fragment
+        android:id="@+id/topSongsFragment"
+        android:name="com.example.practicaltest.modules.home.view.TopSongsFragment"
+        android:label="Top Songs" >
+        <action
+            android:id="@+id/action_topSongsFragment_to_songDetailFragment"
+            app:destination="@id/songDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/songDetailFragment"
+        android:name="com.example.practicaltest.modules.songDetail.view.SongDetailFragment"
+        android:label="Song Detail" />
+</navigation>
